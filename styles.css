@@ -1,0 +1,116 @@
+.title {
+    color: #000000;
+    text-align: center;
+    
+}
+.dynalight-regular {
+    font-family: "Dynalight", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.libre-caslon-display-regular {
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+    font-family: "dynalight";
+    font-size: 80px;
+    line-height: 10px
+}
+
+h2 {
+    text-align-last: center;
+        font-family: "dynalight";
+    font-size: 50px;
+line-height: 10px;
+}
+.container {
+    display: inline;
+}
+h3 {
+    text-align-last: center;
+    font-size: 30px;
+    line-height: 10px;
+    font-family: Libre Caslon Display;
+}
+
+.container div {
+    margin: 5px;
+    padding: 14px;
+    font-size: 20px;
+    display: inline-flex;
+    background-color: aliceblue;
+    border-radius: 12px;
+    border-block: solid;
+    border-color: #d7e6f3;
+    font-family: Libre Caslon Display;
+}
+
+.nav {
+    font-weight: bolder;
+    margin: 10;
+    border-top: double 10px;
+    border-bottom: double 10px;
+    border-right: double 10px;
+    border-left: double 10px;
+    padding: 3px 2px;
+    font-size: 1.2em;
+    text-align-last: center;
+    background-color: #f4efe7;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+}
+ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    text-align: center;
+}
+section {
+    margin: 30px 30px;
+    border: 3px solid;
+    border-color:#d7e6f3;
+    padding: 5% 10% 5%;
+    background-color: aliceblue;
+    box-shadow: 3px 4px 15px var(--rule);
+    max-width: 50em;
+}
+/* unvisited link */
+a:link {
+  color:#8fb3d2;
+}
+
+/* visited link */
+a:visited {
+  color: #8fb3d2;
+}
+
+/* mouse over link */
+a:hover {
+  color: #000000;
+}
+
+/* selected link */
+a:active {
+  color: #000000;
+}
+
+img { width: 40%;
+    border-style: groove; 
+    border-width: 5px;
+    float: left;
+    margin: 0 5px 10px 5px
+}
+
+footer{text-align: center;
+font-size: 15px;}
+
+html{background-color: antiquewhite;}
